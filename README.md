@@ -533,7 +533,7 @@ For detailed setup and integration instructions:
 For support and questions:
 - **GitHub Issues**: [Create an issue](https://github.com/yourusername/lacbot/issues)
 - **Documentation**: [Comprehensive Guide](COMPREHENSIVE_GUIDE.md)
-- **Email**: support@lacbot.edu
+- **Email**: rounakp235@gmail.com
 - **Community**: [Discord Server](https://discord.gg/lacbot)
 
 ---
