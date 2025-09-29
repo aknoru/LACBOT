@@ -1,0 +1,18 @@
+{
+  "faqs": [
+    {
+      "question": "When is the deadline for semester fee payment?",
+      "answer": "The deadline for semester fee payment is March 15, 2024. You can pay online through the student portal.",
+      "category": "fees",
+      "language": "en",
+      "priority": 5
+    },
+    {
+      "question": "How can I apply for scholarships?",
+      "answer": "You can apply for scholarships through the online portal. Visit the financial aid section on the college website.",
+      "category": "scholarships",
+      "language": "en",
+      "priority": 4
+    }
+  ]
+}
