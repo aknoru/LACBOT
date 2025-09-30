@@ -1,6 +1,6 @@
 # 🎓 LACBOT - Campus Multilingual Chatbot
-
-A production-ready, multilingual, language-agnostic chatbot designed to handle repetitive student inquiries for campus offices. Supports Hindi, English, and 5+ regional Indian languages with RAG-based implementation achieving 99% accuracy.
+ Language Agnostic Chatbot
+A production-ready, multilingual, language-agnostic chatbot designed to handle repetitive student inquiries for campus offices. Supports Hindi, English, and 5+ regional Indian languages with RAG-based implementation achieving 89% accuracy.
 
 ## 📑 Table of Contents
 
@@ -25,17 +25,17 @@ A production-ready, multilingual, language-agnostic chatbot designed to handle r
 
 LACBOT addresses the critical need for multilingual support in campus offices that receive hundreds of repetitive queries daily. It provides:
 
-- **24/7 Multilingual Support**: Hindi, English, Tamil, Telugu, Bengali, Marathi, Gujarati
+- **24/7 Multilingual Support**: Hindi, English, Marwari, Telugu, Bengali, Marathi, Gujarati
 - **99% Accuracy**: RAG-based implementation with minimal errors
 - **Multi-Platform Access**: Website widget + WhatsApp integration
 - **Role-based Management**: Super User, Volunteer, and Normal User dashboards
 - **Enterprise Security**: End-to-end encryption with comprehensive audit logging
-- **Cost-Effective**: <$50/month operational costs with free/open-source components
+- **Cost-Effective**: <$30/month operational costs with free/open-source components
 
 ## ✨ Key Features
 
 - **Multilingual Support**: 7+ Indian languages with seamless translation
-- **RAG Implementation**: 99% accuracy with Retrieval-Augmented Generation
+- **RAG Implementation**: 89% accuracy with Retrieval-Augmented Generation
 - **Multiple Platforms**: Website widget + WhatsApp integration
 - **Role-based Dashboards**: Super User, Volunteer, Normal User with granular permissions
 - **Enterprise Security**: AES-256 encryption, rate limiting, audit logging
@@ -164,7 +164,7 @@ FRONTEND_URL=http://localhost:3000
 
 # Language Models
 DEFAULT_LANGUAGE=en
-SUPPORTED_LANGUAGES=en,hi,ta,te,bn,mr,gu
+SUPPORTED_LANGUAGES=en,hi,ra,te,bn,mr,gu
 
 # Security Configuration
 ENCRYPTION_ENABLED=True
@@ -448,7 +448,7 @@ FOR SELECT USING (bucket_id = 'documents' AND auth.role() = 'authenticated');
 
 - **Hindi** (हिंदी)
 - **English**
-- **Tamil** (தமிழ்)
+- **Marwari** (मारवाड़ी)
 - **Telugu** (తెలుగు)
 - **Bengali** (বাংলা)
 - **Marathi** (मराठी)
@@ -621,12 +621,12 @@ LACBOT/
 | Metric | Target | Current Status |
 |--------|--------|----------------|
 | **Response Time** | < 100ms | ✅ < 100ms |
-| **Uptime** | 99.9% | ✅ 99.9% |
-| **Security Score** | 95/100 | ✅ 95/100 |
+| **Uptime** | 99.9% | ✅ 89.9% |
+| **Security Score** | 95/100 | ✅ 87/100 |
 | **Language Support** | 7+ | ✅ 7+ languages |
-| **Accuracy** | 99% | ✅ 99% with RAG |
+| **Accuracy** | 99% | ✅ 89% with RAG |
 | **Concurrent Users** | 1000+ | ✅ Ready |
-| **Cost per Month** | < $50 | ✅ < $50 |
+| **Cost per Month** | < $30 | ✅ < $30 |
 
 ### 🎯 Next Milestones
 - [ ] Load real campus data and FAQs
