@@ -1,4 +1,4 @@
-# 🎓 LACBOT - Campus Multilingual Chatbot
+# 🎓 CAMPUS-VANI - Campus Multilingual Chatbot
  Language Agnostic Chatbot, A production-ready, multilingual, language-agnostic chatbot designed to handle repetitive student inquiries for campus offices. Supports Hindi, English, and 5+ regional Indian languages with RAG-based implementation achieving 89% accuracy.
 
 ## 📑 Table of Contents
